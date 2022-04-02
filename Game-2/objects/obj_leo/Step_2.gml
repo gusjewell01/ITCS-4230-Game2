@@ -11,6 +11,7 @@
 		
 		sprite_index = spr_leo_walking
 	
+
 	}
 	
 	
