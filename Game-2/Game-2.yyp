@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"spr_leo_attack","path":"sprites/spr_leo_attack/spr_leo_attack.yy",},"order":2,},
+    {"id":{"name":"spr_leo_damaged","path":"sprites/spr_leo_damaged/spr_leo_damaged.yy",},"order":3,},
     {"id":{"name":"obj_leo","path":"objects/obj_leo/obj_leo.yy",},"order":0,},
     {"id":{"name":"spr_leo_walking","path":"sprites/spr_leo_walking/spr_leo_walking.yy",},"order":0,},
     {"id":{"name":"spr_leo_standing","path":"sprites/spr_leo_standing/spr_leo_standing.yy",},"order":1,},
@@ -10,6 +12,7 @@
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
