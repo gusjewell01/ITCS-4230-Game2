@@ -11,4 +11,3 @@ health = 100
 ready = true
 
 state = States.Regular
-
