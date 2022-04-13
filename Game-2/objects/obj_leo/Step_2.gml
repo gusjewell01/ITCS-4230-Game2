@@ -13,7 +13,11 @@
 	
 
 	}
-	
+
+
+if (leo_health <= 0) {
+	room_goto(Lose)
+}
 	
 
 

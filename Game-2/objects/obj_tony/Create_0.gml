@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-enum States {
+enum tonyStates {
 	Regular, 
 	Walking, 
 	Attacking,
@@ -8,6 +8,8 @@ enum States {
 }
 
 health = 100
+
+
 ready = true
 
-state = States.Regular
+state = tonyStates.Regular
