@@ -1,13 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-	if hspeed != 0 and state != States.Attacking{
+	if hspeed != 0 and (state = States.Regular or state = States.Walking){
 		
 		sprite_index = spr_leo_walking
 	
 		image_xscale = sign(hspeed)
 	}
-	if vspeed != 0 and state != States.Attacking{
+	if vspeed != 0 and (state = States.Regular or state = States.Walking){
 		
 		sprite_index = spr_leo_walking
 	
@@ -17,6 +17,10 @@
 
 if (leo_health <= 0) {
 	room_goto(Lose)
+}
+
+if state = States.Damaged {
+	sprite_index = spr_leo_damaged	
 }
 	
 

@@ -8,5 +8,5 @@ vspeed = 0
 hspeed = 0
 instance_create_depth(x+(20 *image_xscale), y, 1, obj_punch)
 }
-alarm[0] = 15
+alarm[0] = 10
 alarm[1] = 30
