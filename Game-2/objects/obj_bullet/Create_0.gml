@@ -1,1 +1,0 @@
-hspeed = image_xscale * -50

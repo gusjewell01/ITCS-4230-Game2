@@ -1,15 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-enum tonyStates {
-	Regular, 
-	Walking, 
-	Attacking,
-	Damaged
+state = ENEMYSTATE.FREE
+
+enum ENEMYSTATE{
+	FREE,
+	ATTACK,
+	HIT,
+	DEAD
 }
-
-health = 100
-
-
-ready = true
-
-state = tonyStates.Regular

@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-
+if(state == States.Damaged){
+	return;
+}
 	if hspeed != 0 and (state = States.Regular or state = States.Walking){
 		
 		sprite_index = spr_leo_walking
@@ -19,9 +21,7 @@ if (leo_health <= 0) {
 	room_goto(Lose)
 }
 
-if state = States.Damaged {
-	sprite_index = spr_leo_damaged	
-}
+
 	
 
 
