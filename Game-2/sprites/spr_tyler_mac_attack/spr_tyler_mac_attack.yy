@@ -90,7 +90,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "path": "folders/Tile Sets/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_tyler_mac_attack",
