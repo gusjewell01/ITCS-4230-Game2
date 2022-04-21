@@ -7,7 +7,9 @@ enum States {
 	Damaged
 }
 
-leo_health = 100
+
+bat = false
+global.leo_health = 100
 ready = true
 
 state = States.Regular

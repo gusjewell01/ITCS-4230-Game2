@@ -1,7 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-/// @description Insert description here
-// You can write your code in this editor
 switch (state){
 	case ENEMYSTATE.FREE:
 	AI_type();
@@ -13,14 +9,18 @@ switch (state){
 	if (obj_leo.x - x > 0) {
 		image_xscale = -1
 	}
-	if(obj_tony.cooldown <= 0){
+	if(obj_tony.cooldown <= 0 and ready){
+		ready = false
 		if (obj_leo.x - x > 0) {
 		image_xscale = -1
 		instance_create_layer(x+40, y, "Bullets", obj_tony_bullet)
+		alarm[0] = 100
 		cooldown = attackCD
 	} else {
+		read = false
 		sprite_index = spr_tony_attack
 		instance_create_layer(x-40, y, "Bullets", obj_tony_bullet)
+		alarm[0] = 100
 		cooldown = attackCD
 	}
 	}
