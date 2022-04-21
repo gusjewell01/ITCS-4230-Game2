@@ -20,6 +20,7 @@
     {"id":{"name":"TonyMovement","path":"timelines/TonyMovement/TonyMovement.yy",},"order":1,},
     {"id":{"name":"spr_big_jim_standing","path":"sprites/spr_big_jim_standing/spr_big_jim_standing.yy",},"order":22,},
     {"id":{"name":"spr_tony_walking","path":"sprites/spr_tony_walking/spr_tony_walking.yy",},"order":12,},
+    {"id":{"name":"Fantasy1","path":"rooms/Fantasy1/Fantasy1.yy",},"order":5,},
     {"id":{"name":"Bat","path":"objects/Bat/Bat.yy",},"order":12,},
     {"id":{"name":"spr_leo_damaged","path":"sprites/spr_leo_damaged/spr_leo_damaged.yy",},"order":3,},
     {"id":{"name":"spr_tileset1","path":"sprites/spr_tileset1/spr_tileset1.yy",},"order":6,},
@@ -75,6 +76,7 @@
     {"roomId":{"name":"Win","path":"rooms/Win/Win.yy",},},
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
     {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
+    {"roomId":{"name":"Fantasy1","path":"rooms/Fantasy1/Fantasy1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

@@ -15,14 +15,19 @@ switch (state){
 	if (obj_leo.x - x > 0) {
 		image_xscale = -1
 	}
-	if(obj_big_jim.cooldown <= 0){
+	if(obj_big_jim.cooldown <= 0 and ready){
 		if (obj_leo.x - x > 0) {
+			ready = false
+			sprite_index = spr_big_jim_attack
 		image_xscale = -1
 		instance_create_layer(x+20, y, "Bullets", obj_enemy_punch)
+		alarm[0] = 100
 		cooldown = attackCD
 	} else {
+		ready = false
 		sprite_index = spr_big_jim_attack
 		instance_create_layer(x-20, y, "Bullets", obj_enemy_punch)
+		alarm[0] = 100
 		cooldown = attackCD
 	}
 	}
