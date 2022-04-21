@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-other.leo_health -= 50;
-instance_destroy()
+state = States.Damaged
+sprite_index = spr_leo_damaged
+alarm[3] = 20

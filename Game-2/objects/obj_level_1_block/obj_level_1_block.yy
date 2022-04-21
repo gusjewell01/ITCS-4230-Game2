@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_punch_hitbox",
-    "path": "sprites/spr_punch_hitbox/spr_punch_hitbox.yy",
+    "name": "spr_block",
+    "path": "sprites/spr_block/spr_block.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": false,
   "spriteMaskId": null,
   "persistent": false,
@@ -22,8 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_leo","path":"objects/obj_leo/obj_leo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_enemy_punch",
+  "name": "obj_level_1_block",
   "tags": [],
   "resourceType": "GMObject",
 }

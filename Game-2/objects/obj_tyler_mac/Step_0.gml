@@ -13,18 +13,20 @@ switch (state){
 	if (obj_leo.x - x > 0) {
 		image_xscale = -1
 	}
-	if(obj_tony.cooldown <= 0){
+	if(obj_tyler_mac.cooldown <= 0){
 		if (obj_leo.x - x > 0) {
 		image_xscale = -1
-		instance_create_layer(x+40, y, "Bullets", obj_tony_bullet)
+		
 		cooldown = attackCD
+		alarm[0] = 20
 	} else {
-		sprite_index = spr_tony_attack
-		instance_create_layer(x-40, y, "Bullets", obj_tony_bullet)
+		sprite_index = spr_tyler_mac_attack
+		
 		cooldown = attackCD
+		alarm[1] = 20
 	}
 	}
-	if(distance_to_object(obj_leo) > 200){
+	if(distance_to_object(obj_leo) > 50){
 		state = ENEMYSTATE.FREE
 	}
 	
