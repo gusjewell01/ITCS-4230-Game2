@@ -33,8 +33,9 @@
 	//implement if we want to have enemies have hp, will be a bit more work
 	vspeed = 0
 	hspeed = 0
-	
+	sprite_index = spr_tony_damaged
 	alarm[3] = 20
+	
 	break;
 	case ENEMYSTATE.DEAD:
 	//needed for if we have hp on enemy characters
