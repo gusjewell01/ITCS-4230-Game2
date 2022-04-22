@@ -2,6 +2,9 @@
 // You can write your code in this editor
 state = ENEMYSTATE.FREE
 
+hp = 100
+
+hitCD = true
 
 ready = true
 enum ENEMYSTATE{

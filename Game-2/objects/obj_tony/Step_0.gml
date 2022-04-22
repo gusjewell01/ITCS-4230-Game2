@@ -1,4 +1,4 @@
-switch (state){
+	switch (state){
 	case ENEMYSTATE.FREE:
 	AI_type();
 	if (obj_leo.x - x > 0) {
@@ -17,7 +17,7 @@ switch (state){
 		alarm[0] = 100
 		cooldown = attackCD
 	} else {
-		read = false
+		ready = false
 		sprite_index = spr_tony_attack
 		instance_create_layer(x-40, y, "Bullets", obj_tony_bullet)
 		alarm[0] = 100
@@ -31,9 +31,14 @@ switch (state){
 	break;
 	case ENEMYSTATE.HIT:
 	//implement if we want to have enemies have hp, will be a bit more work
+	vspeed = 0
+	hspeed = 0
+	
+	alarm[3] = 20
 	break;
 	case ENEMYSTATE.DEAD:
 	//needed for if we have hp on enemy characters
+	instance_destroy()
 	break;
 }
 cooldown -= 1

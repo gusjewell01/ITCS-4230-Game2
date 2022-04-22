@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 1919,
   "bbox_top": 0,
-  "bbox_bottom": 0,
+  "bbox_bottom": 1079,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 1920,
+  "height": 1080,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5f201a12-e49e-4993-8038-e965230b4b96","path":"sprites/Sprite30/Sprite30.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5f201a12-e49e-4993-8038-e965230b4b96","path":"sprites/Sprite30/Sprite30.yy",},"LayerId":{"name":"320c1d92-994c-4c4d-8f78-6795d6026007","path":"sprites/Sprite30/Sprite30.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},"resourceVersion":"1.0","name":"5f201a12-e49e-4993-8038-e965230b4b96","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c77497c9-3ee1-4de5-87c0-ef6996aa557f","path":"sprites/spr_zombie_land/spr_zombie_land.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c77497c9-3ee1-4de5-87c0-ef6996aa557f","path":"sprites/spr_zombie_land/spr_zombie_land.yy",},"LayerId":{"name":"d69b44b3-f139-4163-b3af-265d237c9305","path":"sprites/spr_zombie_land/spr_zombie_land.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_zombie_land","path":"sprites/spr_zombie_land/spr_zombie_land.yy",},"resourceVersion":"1.0","name":"c77497c9-3ee1-4de5-87c0-ef6996aa557f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},
+    "spriteId": {"name":"spr_zombie_land","path":"sprites/spr_zombie_land/spr_zombie_land.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"cf73793e-4a70-4dcd-a9df-b70459e699b1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5f201a12-e49e-4993-8038-e965230b4b96","path":"sprites/Sprite30/Sprite30.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"725efb9e-8641-4b91-89af-1e36bcee50a8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c77497c9-3ee1-4de5-87c0-ef6996aa557f","path":"sprites/spr_zombie_land/spr_zombie_land.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},
+    "parent": {"name":"spr_zombie_land","path":"sprites/spr_zombie_land/spr_zombie_land.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite30",
+    "name": "spr_zombie_land",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"320c1d92-994c-4c4d-8f78-6795d6026007","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d69b44b3-f139-4163-b3af-265d237c9305","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Sprites",
-    "path": "folders/Tile Sets/Sprites.yy",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite30",
+  "name": "spr_zombie_land",
   "tags": [],
   "resourceType": "GMSprite",
 }

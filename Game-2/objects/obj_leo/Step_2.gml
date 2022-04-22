@@ -13,7 +13,7 @@ if(state == States.Damaged){
 			sprite_index = spr_leo_walking	 
 		 }
 	
-		image_xscale = sign(hspeed)
+		image_xscale =  sign(hspeed)
 	}
 	if vspeed != 0 and (state = States.Regular or state = States.Walking){
 		image_speed = 1
