@@ -1,8 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function TonyAI(){
+function TylerAI(){
 	//free movement of enemy tony
-	timeline_index = TonyMovement;
+	timeline_index = TylerMovement;
 	timeline_speed = 1/20;
 	timeline_running = true;
 	timeline_loop = true;

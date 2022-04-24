@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_zombie_walking",
-    "path": "sprites/spr_zombie_walking/spr_zombie_walking.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_tony",
-    "path": "objects/obj_tony/obj_tony.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +25,7 @@
     "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_zombie",
+  "name": "obj_tyler2",
   "tags": [],
   "resourceType": "GMObject",
 }

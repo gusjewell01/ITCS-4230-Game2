@@ -8,6 +8,8 @@
 	case ENEMYSTATE.ATTACK:
 	if (obj_leo.x - x > 0) {
 		image_xscale = -1
+	} else if (obj_leo.x - x < 0){
+		image_xscale = 1
 	}
 	if(obj_tony.cooldown <= 0 and ready){
 		ready = false

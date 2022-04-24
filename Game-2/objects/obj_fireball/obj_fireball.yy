@@ -29,8 +29,8 @@
     {"propertyId":{"name":"bulletSpeed","path":"objects/obj_tony_bullet/obj_tony_bullet.yy",},"objectId":{"name":"obj_tony_bullet","path":"objects/obj_tony_bullet/obj_tony_bullet.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_fireball",
