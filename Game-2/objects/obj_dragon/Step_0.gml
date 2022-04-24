@@ -17,13 +17,13 @@
 		ready = false
 		if (obj_leo.x - x > 0) {
 		image_xscale = -3
-		instance_create_layer(x+100, y+40, "Bullets", obj_fireball)
+		instance_create_layer(x+90, y+40, "Bullets", obj_fireball)
 		alarm[0] = 100
 		cooldown = attackCD
 	} else {
 		ready = false
 		//sprite_index = spr_dragon_attack
-		instance_create_layer(x-100, y+40, "Bullets", obj_fireball)
+		instance_create_layer(x-90, y+40, "Bullets", obj_fireball)
 		alarm[0] = 100
 		cooldown = attackCD
 	}

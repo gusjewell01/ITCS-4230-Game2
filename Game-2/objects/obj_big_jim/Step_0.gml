@@ -24,13 +24,13 @@ switch (state){
 			ready = false
 			sprite_index = spr_big_jim_attack
 		image_xscale = -1
-		instance_create_layer(x+100, y+60, "Bullets", obj_enemy_punch)
+		instance_create_layer(x+80, y+60, "Bullets", obj_enemy_punch)
 		alarm[0] = 100
 		cooldown = attackCD
 	} else {
 		ready = false
 		sprite_index = spr_big_jim_attack
-		instance_create_layer(x-100, y+60, "Bullets", obj_enemy_punch)
+		instance_create_layer(x-80, y+60, "Bullets", obj_enemy_punch)
 		alarm[0] = 100
 		cooldown = attackCD
 	}
