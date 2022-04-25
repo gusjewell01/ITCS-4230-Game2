@@ -1,4 +1,28 @@
 
+/// @description Insert description here
+// You can write your code in this editor
+if(distance_to_object(obj_leo) < 100 && obj_leo.state != States.Damaged){
+	direction = point_direction(x, y, obj_leo.x, obj_leo.y)
+	speed = moveSpeed
+	
+	if(tracking == false){
+		patrolPosX = x;
+		patrolPosY = y;
+		tracking = true;
+		
+	}
+} else if(tracking == true) {
+	direction = point_direction(x, y, patrolPosX, patrolPosY);
+	speed = moveSpeed
+	
+
+	
+}
+
+
+if(chase == false){
+	alarm[0] = 30
+}
 
 switch (state){
 	case ENEMYSTATE.FREE:
@@ -13,7 +37,7 @@ switch (state){
 	} else if (obj_leo.x - x < 0){
 		image_xscale = 1
 	}
-	if(obj_tony.cooldown <= 0 and ready){
+	if(obj_zombie.cooldown <= 0 and ready){
 		ready = false
 		if (obj_leo.x - x > 0) {
 		image_xscale = -1

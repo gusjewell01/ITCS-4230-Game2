@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function ZombieAI(){
 	//free movement of enemy tony
-	timeline_index = TylerMovement;
+	timeline_index = TonyMovement;
 	timeline_speed = 1/20;
 	timeline_running = true;
 	timeline_loop = true;

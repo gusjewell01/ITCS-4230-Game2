@@ -19,6 +19,7 @@
         {"properties":[
             {"propertyId":{"name":"walkSpeed","path":"objects/obj_leo/obj_leo.yy",},"objectId":{"name":"obj_leo","path":"objects/obj_leo/obj_leo.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_leo","path":"objects/obj_leo/obj_leo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1408.0,"y":736.0,"resourceVersion":"1.0","name":"inst_22421DCC","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_fantasy2_controller","path":"objects/obj_fantasy2_controller/obj_fantasy2_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":480.0,"resourceVersion":"1.0","name":"inst_77F9EDF8","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_dragonn_room","path":"sprites/spr_dragonn_room/spr_dragonn_room.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1920.0,"y":0.0,"resourceVersion":"1.0","name":"graphic_3B6AC15","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -31,6 +32,7 @@
   "instanceCreationOrder": [
     {"name":"inst_388BB9C7","path":"rooms/Fantasy2/Fantasy2.yy",},
     {"name":"inst_22421DCC","path":"rooms/Fantasy2/Fantasy2.yy",},
+    {"name":"inst_77F9EDF8","path":"rooms/Fantasy2/Fantasy2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

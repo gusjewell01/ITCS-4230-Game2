@@ -19,14 +19,14 @@
 		image_xscale = -3
 		sprite_index = spr_dragon_attacking
 		audio_play_sound(snd_fireball, 1, 0)
-		instance_create_layer(x+200, y+40, "Bullets", obj_fireball)
+		instance_create_layer(x+220, y+40, "Bullets", obj_fireball)
 		alarm[0] = 100
 		cooldown = attackCD
 	} else {
 		ready = false
 		sprite_index = spr_dragon_attacking
 		audio_play_sound(snd_fireball, 1, 0)
-		instance_create_layer(x-200, y+40, "Bullets", obj_fireball)
+		instance_create_layer(x-220, y+40, "Bullets", obj_fireball)
 		alarm[0] = 100
 		cooldown = attackCD
 	}
@@ -51,7 +51,7 @@
 	sprite_index = spr_dragon_dying
 	if (alive = true) {
 		alive = false
-	alarm[1] = 10
+	alarm[1] = 20
 	}
 	break;
 }
