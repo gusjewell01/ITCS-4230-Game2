@@ -2,8 +2,6 @@
 // You can write your code in this editor
 state = ENEMYSTATE.FREE
 
-hp = 100
-
 hitCD = true
 stateCD = true
 ready = true

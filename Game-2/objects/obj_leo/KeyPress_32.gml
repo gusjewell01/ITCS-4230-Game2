@@ -5,16 +5,16 @@ if (ready) {
 	ready = false
 	alarm[0] = 10
 	alarm[1] = 30
-if (bat = true ) {
-	sprite_index = spr_leo_bat_attack	
-} else {
-sprite_index = spr_leo_attack
-}
-state = States.Attacking
-vspeed = 0
-hspeed = 0
-instance_create_depth(x+(20 *image_xscale), y, 1, obj_punch)
+	if (bat = true ) {
+		sprite_index = spr_leo_bat_attack	
+	} else {
+		sprite_index = spr_leo_attack
+	}
+	state = States.Attacking
+	vspeed = 0
+	hspeed = 0
+	instance_create_depth(x+(20 *image_xscale), y, 1, obj_punch)
 }
 if (bat == true) {
-	alarm[0] = 20	
+	alarm[0] = 20
 }

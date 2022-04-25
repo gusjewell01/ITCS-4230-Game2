@@ -65,6 +65,7 @@
     {"id":{"name":"obj_leo","path":"objects/obj_leo/obj_leo.yy",},"order":0,},
     {"id":{"name":"spr_leo_walking","path":"sprites/spr_leo_walking/spr_leo_walking.yy",},"order":0,},
     {"id":{"name":"spr_big_jim_damaged","path":"sprites/spr_big_jim_damaged/spr_big_jim_damaged.yy",},"order":40,},
+    {"id":{"name":"BigJimAI","path":"scripts/BigJimAI/BigJimAI.yy",},"order":5,},
     {"id":{"name":"spr_you_win","path":"sprites/spr_you_win/spr_you_win.yy",},"order":17,},
     {"id":{"name":"spr_leo_standing","path":"sprites/spr_leo_standing/spr_leo_standing.yy",},"order":1,},
     {"id":{"name":"spr_dragonn_room","path":"sprites/spr_dragonn_room/spr_dragonn_room.yy",},"order":38,},
@@ -92,13 +93,13 @@
   },
   "RoomOrderNodes": [
     {"groupName":"group","children":[],},
+    {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Fantasy2","path":"rooms/Fantasy2/Fantasy2.yy",},},
     {"roomId":{"name":"Fantasy1","path":"rooms/Fantasy1/Fantasy1.yy",},},
+    {"roomId":{"name":"Fantasy2","path":"rooms/Fantasy2/Fantasy2.yy",},},
     {"roomId":{"name":"testRoom","path":"rooms/testRoom/testRoom.yy",},},
     {"roomId":{"name":"Win","path":"rooms/Win/Win.yy",},},
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
-    {"roomId":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":13,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

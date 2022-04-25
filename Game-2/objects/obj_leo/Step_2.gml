@@ -19,9 +19,9 @@ if(state == States.Damaged){
 		image_speed = 1
 		if (bat == true) {
 			sprite_index = spr_leo_bat_walking
-		} else
-		sprite_index = spr_leo_walking
-	
+		} else {
+			sprite_index = spr_leo_walking
+		}
 
 	}
 
@@ -44,4 +44,4 @@ if vspeed = 0 and hspeed = 0 and state != States.Attacking {
 	sprite_index = spr_leo_standing
 	state = States.Regular
 	}
-	}
+}

@@ -35,6 +35,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"AI_type","path":"objects/obj_tony/obj_tony.yy",},"objectId":{"name":"obj_tony","path":"objects/obj_tony/obj_tony.yy",},"value":"TylerAI","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hp","path":"objects/obj_tony/obj_tony.yy",},"objectId":{"name":"obj_tony","path":"objects/obj_tony/obj_tony.yy",},"value":"150","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemies",

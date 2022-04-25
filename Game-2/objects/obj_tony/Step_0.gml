@@ -4,9 +4,6 @@ EnemyFace()
 switch (state){
 	case ENEMYSTATE.FREE:
 	AI_type();
-	if (obj_leo.x - x > 0) {
-		image_xscale = -1
-	}
 	break;
 	case ENEMYSTATE.ATTACK:
 	if(cooldown <= 0 and ready){
@@ -19,7 +16,14 @@ switch (state){
 			cooldown = attackCD
 		}
 	}
-	if(distance_to_object(obj_leo) > 200){
+	if(sprite_index != spr_tony_attack){
+		if(hspeed != 0 || vspeed != 0){
+			sprite_index = spr_tony_walking
+		} else {
+			sprite_index = spr_tony_standing
+		}
+	}
+	if(distance_to_object(obj_leo) > 150){
 		state = ENEMYSTATE.FREE
 	}
 	
