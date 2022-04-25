@@ -1,4 +1,6 @@
-	switch (state){
+
+
+switch (state){
 	case ENEMYSTATE.FREE:
 	AI_type();
 	if (obj_leo.x - x > 0) {
@@ -36,8 +38,11 @@
 	vspeed = 0
 	hspeed = 0
 	sprite_index = spr_tony_damaged
+	if (stateCD = true) {
+		stateCD = false
 	alarm[3] = 20
 	
+	}
 	break;
 	case ENEMYSTATE.DEAD:
 	//needed for if we have hp on enemy characters

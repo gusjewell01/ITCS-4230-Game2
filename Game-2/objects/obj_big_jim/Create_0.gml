@@ -3,3 +3,4 @@
 state = ENEMYSTATE.FREE
 ready = true
 hitCD = false
+hp = 150

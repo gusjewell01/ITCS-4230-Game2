@@ -24,13 +24,14 @@ switch (state){
 			ready = false
 			sprite_index = spr_big_jim_attack
 		image_xscale = -1
-		instance_create_layer(x+80, y+60, "Bullets", obj_enemy_punch)
+		alarm[1] = 10
 		alarm[0] = 100
 		cooldown = attackCD
 	} else {
 		ready = false
 		sprite_index = spr_big_jim_attack
-		instance_create_layer(x-80, y+60, "Bullets", obj_enemy_punch)
+		alarm[1] = 10
+		instance_create_layer(x-80, y+60, "Bullets", obj_jim_punch)
 		alarm[0] = 100
 		cooldown = attackCD
 	}
@@ -42,10 +43,13 @@ switch (state){
 	break;
 	case ENEMYSTATE.HIT:
 	//implement if we want to have enemies have hp, will be a bit more work
+
 	vspeed = 0
 	hspeed = 0
-	
+	if (stateCD = true) {
+		stateCD = false
 	alarm[3] = 20
+	}
 	break;
 	case ENEMYSTATE.DEAD:
 	//needed for if we have hp on enemy characters

@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-state = ENEMYSTATE.FREE
-hitCD = true
-stateCD = true
-hp = 100
+state = States.Damaged
+sprite_index = spr_leo_damaged
+alarm[3] = 20

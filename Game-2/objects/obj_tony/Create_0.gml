@@ -5,7 +5,7 @@ state = ENEMYSTATE.FREE
 hp = 100
 
 hitCD = true
-
+stateCD = true
 ready = true
 enum ENEMYSTATE{
 	FREE,

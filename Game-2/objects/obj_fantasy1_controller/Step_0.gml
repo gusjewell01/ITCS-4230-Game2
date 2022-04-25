@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-state = ENEMYSTATE.FREE
-hitCD = true
-stateCD = true
-hp = 100
+if (instance_count(obj_zombie) == 0) {
+	room_goto(Fantasy2)	
+}

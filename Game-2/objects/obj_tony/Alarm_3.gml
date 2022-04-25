@@ -3,3 +3,4 @@
 
 sprite_index = spr_tony_walking
 state = ENEMYSTATE.FREE
+stateCD = true
