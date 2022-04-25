@@ -7,3 +7,4 @@ hp = 150
 hitCD = true
 stateCD = true
 ready = true
+alive = true

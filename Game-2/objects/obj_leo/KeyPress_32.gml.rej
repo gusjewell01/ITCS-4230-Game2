@@ -1,0 +1,17 @@
+diff a/Game-2/objects/obj_leo/KeyPress_32.gml b/Game-2/objects/obj_leo/KeyPress_32.gml	(rejected hunks)
+@@ -4,10 +4,14 @@
+ 	image_speed = 1
+ ready = false
+ if (bat = true ) {
+-	sprite_index = spr_leo_bat_attack	
++	sprite_index = spr_leo_bat_attack
+ } else {
+ sprite_index = spr_leo_attack
+ }
++if(state != States.Attacking){
++	alarm[0] = 10
++	alarm[1] = 30
++}
+ state = States.Attacking
+ vspeed = 0
+ hspeed = 0

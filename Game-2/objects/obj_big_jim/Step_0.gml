@@ -46,6 +46,7 @@ switch (state){
 
 	vspeed = 0
 	hspeed = 0
+	sprite_index = spr_big_jim_damaged
 	if (stateCD = true) {
 		stateCD = false
 	alarm[3] = 20

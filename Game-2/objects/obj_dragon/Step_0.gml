@@ -45,7 +45,11 @@
 	break;
 	case ENEMYSTATE.DEAD:
 	//needed for if we have hp on enemy characters
-	instance_destroy()
+	sprite_index = spr_dragon_dying
+	if (alive = true) {
+		alive = false
+	alarm[1] = 10
+	}
 	break;
 }
 cooldown -= 1
