@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_background.mp3",
-  "duration": 53.6816254,
+  "soundFile": "snd_punch.wav",
+  "duration": 0.673578,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_background",
+  "name": "snd_punch",
   "tags": [],
   "resourceType": "GMSound",
 }

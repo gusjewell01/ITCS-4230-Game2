@@ -17,12 +17,14 @@
 		ready = false
 		if (obj_leo.x - x > 0) {
 		image_xscale = -3
+		sprite_index = spr_dragon_attacking
+		audio_play_sound(snd_fireball, 1, 0)
 		instance_create_layer(x+190, y+40, "Bullets", obj_fireball)
 		alarm[0] = 100
 		cooldown = attackCD
 	} else {
 		ready = false
-		//sprite_index = spr_dragon_attack
+		sprite_index = spr_dragon_attacking
 		instance_create_layer(x-190, y+40, "Bullets", obj_fireball)
 		alarm[0] = 100
 		cooldown = attackCD

@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_background.mp3",
-  "duration": 53.6816254,
+  "soundFile": "snd_fireball_hit.wav",
+  "duration": 1.081905,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_background",
+  "name": "snd_fireball_hit",
   "tags": [],
   "resourceType": "GMSound",
 }

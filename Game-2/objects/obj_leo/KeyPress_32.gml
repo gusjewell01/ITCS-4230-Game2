@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (ready) {
+	audio_play_sound(snd_punch_miss, 1, 0)
 	image_speed = 1
 	ready = false
 	alarm[0] = 10

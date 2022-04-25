@@ -10,9 +10,11 @@ switch (state){
 		sprite_index = spr_tony_attack
 		if (obj_leo.x - x > 0) {
 			instance_create_layer(x+40, y, "Bullets", obj_tony_bullet)
+			audio_play_sound(snd_gunshot, 1, 0)
 			cooldown = attackCD
 		} else {
 			instance_create_layer(x-40, y, "Bullets", obj_tony_bullet)
+			audio_play_sound(snd_gunshot, 1, 0)
 			cooldown = attackCD
 		}
 	}

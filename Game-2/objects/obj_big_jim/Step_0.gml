@@ -12,9 +12,11 @@ switch (state){
 		if (obj_leo.x - x > 0) {
 			instance_create_layer(x+80, y+60, "Bullets", obj_jim_punch)
 			cooldown = attackCD
+			audio_play_sound(snd_ground_poung, 1, 0)
 		} else {
 			instance_create_layer(x-80, y+60, "Bullets", obj_jim_punch)
 			cooldown = attackCD
+			audio_play_sound(snd_ground_poung, 1, 0)
 		}
 	}
 	if(distance_to_object(obj_leo) > 200){
