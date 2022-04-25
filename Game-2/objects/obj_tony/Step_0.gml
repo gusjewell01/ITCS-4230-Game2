@@ -9,20 +9,15 @@ switch (state){
 	}
 	break;
 	case ENEMYSTATE.ATTACK:
-	if(obj_tony.cooldown <= 0 and ready){
-		ready = false
-		if (obj_leo.x - x > 0) {
-		image_xscale = -1
-		instance_create_layer(x+40, y, "Bullets", obj_tony_bullet)
-		alarm[0] = 100
-		cooldown = attackCD
-	} else {
-		ready = false
+	if(cooldown <= 0 and ready){
 		sprite_index = spr_tony_attack
-		instance_create_layer(x-40, y, "Bullets", obj_tony_bullet)
-		alarm[0] = 100
-		cooldown = attackCD
-	}
+		if (obj_leo.x - x > 0) {
+			instance_create_layer(x+40, y, "Bullets", obj_tony_bullet)
+			cooldown = attackCD
+		} else {
+			instance_create_layer(x-40, y, "Bullets", obj_tony_bullet)
+			cooldown = attackCD
+		}
 	}
 	if(distance_to_object(obj_leo) > 200){
 		state = ENEMYSTATE.FREE
