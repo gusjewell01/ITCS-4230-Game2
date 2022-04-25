@@ -1,4 +1,4 @@
-
+EnemyFace()
 /// @description Insert description here
 // You can write your code in this editor
 if(distance_to_object(obj_leo) < 100 && obj_leo.state != States.Damaged){
@@ -17,6 +17,11 @@ if(distance_to_object(obj_leo) < 100 && obj_leo.state != States.Damaged){
 	
 
 	
+}
+
+if (distance_to_object(obj_leo) < 5) {
+	chase = false;
+	tracking = false;
 }
 
 
