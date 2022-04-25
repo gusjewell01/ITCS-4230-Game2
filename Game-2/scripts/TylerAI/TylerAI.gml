@@ -7,7 +7,14 @@ function TylerAI(){
 	timeline_running = true;
 	timeline_loop = true;
 	
-	if(distance_to_object(obj_leo) < 200){
+	if(distance_to_object(obj_leo) < 50){
 		state = ENEMYSTATE.ATTACK;
 	}
+	if(vspeed != 0 || hspeed != 0){
+		sprite_index = spr_tyler_mac_walking
+	} else {
+		sprite_index = spr_tyler_mac_standing
+	}
+	
+	
 }

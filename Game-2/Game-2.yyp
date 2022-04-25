@@ -27,6 +27,7 @@
     {"id":{"name":"spr_fantasy1","path":"sprites/spr_fantasy1/spr_fantasy1.yy",},"order":32,},
     {"id":{"name":"spr_zombie_walking","path":"sprites/spr_zombie_walking/spr_zombie_walking.yy",},"order":27,},
     {"id":{"name":"TylerAI","path":"scripts/TylerAI/TylerAI.yy",},"order":3,},
+    {"id":{"name":"EnemyFace","path":"scripts/EnemyFace/EnemyFace.yy",},"order":4,},
     {"id":{"name":"obj_jim_punch","path":"objects/obj_jim_punch/obj_jim_punch.yy",},"order":9,},
     {"id":{"name":"TonyMovement","path":"timelines/TonyMovement/TonyMovement.yy",},"order":1,},
     {"id":{"name":"TylerMovement","path":"timelines/TylerMovement/TylerMovement.yy",},"order":2,},

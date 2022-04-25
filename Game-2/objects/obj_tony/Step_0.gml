@@ -1,4 +1,5 @@
-
+//enemy faces player always
+EnemyFace()
 
 switch (state){
 	case ENEMYSTATE.FREE:
@@ -8,11 +9,6 @@ switch (state){
 	}
 	break;
 	case ENEMYSTATE.ATTACK:
-	if (obj_leo.x - x > 0) {
-		image_xscale = -1
-	} else if (obj_leo.x - x < 0){
-		image_xscale = 1
-	}
 	if(obj_tony.cooldown <= 0 and ready){
 		ready = false
 		if (obj_leo.x - x > 0) {

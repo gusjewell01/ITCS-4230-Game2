@@ -1,9 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-/// @description Insert description here
-// You can write your code in this editor
-/// @description Insert description here
-// You can write your code in this editor
+EnemyFace()
+
 switch (state){
 	case ENEMYSTATE.FREE:
 	AI_type();
