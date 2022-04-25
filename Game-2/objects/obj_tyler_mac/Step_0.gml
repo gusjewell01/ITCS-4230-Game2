@@ -37,8 +37,7 @@ switch (state){
 	sprite_index = spr_tyler_mac_damaged
 	if (stateCD = true) {
 		stateCD = false
-	alarm[3] = 20
-	
+		alarm[3] = 20
 	}
 	 
 	break;
