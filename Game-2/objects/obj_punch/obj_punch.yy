@@ -4,7 +4,7 @@
     "path": "sprites/spr_punch_hitbox/spr_punch_hitbox.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

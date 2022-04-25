@@ -4,7 +4,7 @@
     "path": "sprites/spr_jim_punch_hitbox39/spr_jim_punch_hitbox39.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
