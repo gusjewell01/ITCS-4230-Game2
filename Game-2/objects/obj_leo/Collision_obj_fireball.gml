@@ -3,4 +3,4 @@
 state = States.Damaged
 sprite_index = spr_leo_damaged
 alarm[3] = 20
-audio_play_sound(snd_bullet_hit, 1, 0)
+audio_play_sound(snd_fireball_hit, 1, 0)

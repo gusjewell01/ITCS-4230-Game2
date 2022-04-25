@@ -1,6 +1,6 @@
 	switch (state){
 	case ENEMYSTATE.FREE:
-	AI_type();
+	DragonAI();
 	if (obj_leo.x - x > 0) {
 		image_xscale = -3
 	} else {
@@ -19,18 +19,19 @@
 		image_xscale = -3
 		sprite_index = spr_dragon_attacking
 		audio_play_sound(snd_fireball, 1, 0)
-		instance_create_layer(x+190, y+40, "Bullets", obj_fireball)
+		instance_create_layer(x+200, y+40, "Bullets", obj_fireball)
 		alarm[0] = 100
 		cooldown = attackCD
 	} else {
 		ready = false
 		sprite_index = spr_dragon_attacking
-		instance_create_layer(x-190, y+40, "Bullets", obj_fireball)
+		audio_play_sound(snd_fireball, 1, 0)
+		instance_create_layer(x-200, y+40, "Bullets", obj_fireball)
 		alarm[0] = 100
 		cooldown = attackCD
 	}
 	}
-	if(distance_to_object(obj_leo) > 400){
+	if(distance_to_object(obj_leo) > 500){
 		state = ENEMYSTATE.FREE
 	}
 	

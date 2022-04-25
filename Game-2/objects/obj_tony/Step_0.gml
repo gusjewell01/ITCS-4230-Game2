@@ -3,7 +3,7 @@ EnemyFace()
 
 switch (state){
 	case ENEMYSTATE.FREE:
-	AI_type();
+	TonyAI()
 	break;
 	case ENEMYSTATE.ATTACK:
 	if(cooldown <= 0 and ready){

@@ -2,7 +2,7 @@
 
 switch (state){
 	case ENEMYSTATE.FREE:
-	AI_type();
+	ZombieAI();
 	if (obj_leo.x - x > 0) {
 		image_xscale = -1
 	}
@@ -37,7 +37,7 @@ switch (state){
 	//implement if we want to have enemies have hp, will be a bit more work
 	vspeed = 0
 	hspeed = 0
-	sprite_index = spr_tony_damaged
+	sprite_index = spr_zombie_damaged
 	if (stateCD = true) {
 		stateCD = false
 	alarm[3] = 20
