@@ -26,9 +26,7 @@ if(state == States.Damaged){
 	}
 
 
-if (global.leo_health <= 0) {
-	room_goto(Lose)
-}
+
 
 
 	
