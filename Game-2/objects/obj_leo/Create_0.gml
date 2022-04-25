@@ -9,7 +9,6 @@ enum States {
 
 
 bat = false
-global.leo_health = 100
 ready = true
 hp = 100
 state = States.Regular
