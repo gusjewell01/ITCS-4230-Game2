@@ -39,6 +39,7 @@
     {"id":{"name":"ZombieAI","path":"scripts/ZombieAI/ZombieAI.yy",},"order":6,},
     {"id":{"name":"spr_menu_button","path":"sprites/spr_menu_button/spr_menu_button.yy",},"order":54,},
     {"id":{"name":"obj_win_controller","path":"objects/obj_win_controller/obj_win_controller.yy",},"order":28,},
+    {"id":{"name":"Room12","path":"rooms/Room12/Room12.yy",},"order":11,},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"order":3,},
     {"id":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},"order":13,},
     {"id":{"name":"spr_fantasy1","path":"sprites/spr_fantasy1/spr_fantasy1.yy",},"order":32,},
@@ -153,6 +154,7 @@
     {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
     {"roomId":{"name":"CutScenes","path":"rooms/CutScenes/CutScenes.yy",},},
     {"roomId":{"name":"Classroom1","path":"rooms/Classroom1/Classroom1.yy",},},
+    {"roomId":{"name":"Room12","path":"rooms/Room12/Room12.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":13,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
