@@ -2,12 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function DragonAI(){
 	//free movement of enemy tony
-	timeline_index = TonyMovement;
-	timeline_speed = 1/20;
-	timeline_running = true;
-	timeline_loop = true;
 	
-	if(distance_to_object(obj_leo) < 50){
+	
+	if(distance_to_object(obj_leo) < 150){
 		state = ENEMYSTATE.ATTACK;
 	}
 	if(vspeed != 0 || hspeed != 0){

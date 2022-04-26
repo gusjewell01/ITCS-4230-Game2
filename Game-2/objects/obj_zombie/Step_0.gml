@@ -41,7 +41,6 @@ switch (state){
 		} else {
 			instance_create_layer(x-20, y, "Bullets", obj_enemy_punch)
 			alarm[0] = 100
-			
 		}
 	}
 	if(distance_to_object(obj_leo) > 200){

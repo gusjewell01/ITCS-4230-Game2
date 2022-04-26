@@ -4,6 +4,4 @@ state = States.Regular
 
 if (global.leo_health <= 0) {
 	sprite_index = spr_leo_dying
-	alarm[4] = 10
-	
 }

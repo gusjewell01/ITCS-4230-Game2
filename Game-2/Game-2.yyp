@@ -111,6 +111,7 @@
     {"id":{"name":"spr_you_win","path":"sprites/spr_you_win/spr_you_win.yy",},"order":17,},
     {"id":{"name":"spr_leo_standing","path":"sprites/spr_leo_standing/spr_leo_standing.yy",},"order":1,},
     {"id":{"name":"spr_credits_button","path":"sprites/spr_credits_button/spr_credits_button.yy",},"order":47,},
+    {"id":{"name":"Path2","path":"paths/Path2/Path2.yy",},"order":14,},
     {"id":{"name":"obj_back_button","path":"objects/obj_back_button/obj_back_button.yy",},"order":22,},
     {"id":{"name":"snd_fireball","path":"sounds/snd_fireball/snd_fireball.yy",},"order":7,},
     {"id":{"name":"spr_dragonn_room","path":"sprites/spr_dragonn_room/spr_dragonn_room.yy",},"order":38,},
