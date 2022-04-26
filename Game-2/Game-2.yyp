@@ -32,7 +32,7 @@
     {"id":{"name":"spr_tyler_mac_damaged","path":"sprites/spr_tyler_mac_damaged/spr_tyler_mac_damaged.yy",},"order":19,},
     {"id":{"name":"obj_restart_button","path":"objects/obj_restart_button/obj_restart_button.yy",},"order":23,},
     {"id":{"name":"spr_big_jim_dying","path":"sprites/spr_big_jim_dying/spr_big_jim_dying.yy",},"order":44,},
-    {"id":{"name":"Sprite56","path":"sprites/Sprite56/Sprite56.yy",},"order":57,},
+    {"id":{"name":"spr_opening_cutscene","path":"sprites/spr_opening_cutscene/spr_opening_cutscene.yy",},"order":57,},
     {"id":{"name":"spr_tyler_mac_walking","path":"sprites/spr_tyler_mac_walking/spr_tyler_mac_walking.yy",},"order":13,},
     {"id":{"name":"spr_tony_attack","path":"sprites/spr_tony_attack/spr_tony_attack.yy",},"order":11,},
     {"id":{"name":"spr_big_jim_walking","path":"sprites/spr_big_jim_walking/spr_big_jim_walking.yy",},"order":24,},
