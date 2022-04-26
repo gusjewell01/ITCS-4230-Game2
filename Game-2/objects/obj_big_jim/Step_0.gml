@@ -36,7 +36,8 @@ switch (state){
 	break;
 	case ENEMYSTATE.DEAD:
 	//needed for if we have hp on enemy characters
-	instance_create_depth(x, y, -9999, obj_fade)
+	//instance_create_depth(x, y, -9999, obj_fade)
+	room_goto(Fantasy1)
 	break;
 }
 cooldown -= 1
