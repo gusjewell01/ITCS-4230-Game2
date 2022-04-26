@@ -7,7 +7,7 @@ function ZombieAI(){
 	timeline_running = true;
 	timeline_loop = true;
 	
-	if(distance_to_object(obj_leo) < 50){
+	if(distance_to_object(obj_leo) < 100){
 		state = ENEMYSTATE.ATTACK;
 	}
 	if(vspeed != 0 || hspeed != 0){

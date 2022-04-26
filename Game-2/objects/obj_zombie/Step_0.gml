@@ -14,9 +14,6 @@ if(distance_to_object(obj_leo) < 100 && obj_leo.state != States.Damaged){
 } else if(tracking == true) {
 	direction = point_direction(x, y, patrolPosX, patrolPosY);
 	speed = moveSpeed
-	
-
-	
 }
 
 if (distance_to_object(obj_leo) < 5) {
@@ -32,30 +29,20 @@ if(chase == false){
 switch (state){
 	case ENEMYSTATE.FREE:
 	ZombieAI();
-	if (obj_leo.x - x > 0) {
-		image_xscale = -1
-	}
+
 	break;
 	case ENEMYSTATE.ATTACK:
-	if (obj_leo.x - x > 0) {
-		image_xscale = -1
-	} else if (obj_leo.x - x < 0){
-		image_xscale = 1
-	}
-	if(obj_zombie.cooldown <= 0 and ready){
-		ready = false
+
+	if(cooldown <= 0){
+		cooldown = attackCD
 		if (obj_leo.x - x > 0) {
-		image_xscale = -1
-		instance_create_layer(x+20, y, "Bullets", obj_enemy_punch)
-		alarm[0] = 100
-		cooldown = attackCD
-	} else {
-		ready = false
-		
-		instance_create_layer(x-20, y, "Bullets", obj_enemy_punch)
-		alarm[0] = 100
-		cooldown = attackCD
-	}
+			instance_create_layer(x+20, y, "Bullets", obj_enemy_punch)
+			alarm[0] = 100
+		} else {
+			instance_create_layer(x-20, y, "Bullets", obj_enemy_punch)
+			alarm[0] = 100
+			
+		}
 	}
 	if(distance_to_object(obj_leo) > 200){
 		state = ENEMYSTATE.FREE
