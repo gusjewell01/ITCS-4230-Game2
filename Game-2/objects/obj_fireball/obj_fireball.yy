@@ -28,7 +28,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"bulletSpeed","path":"objects/obj_tony_bullet/obj_tony_bullet.yy",},"objectId":{"name":"obj_tony_bullet","path":"objects/obj_tony_bullet/obj_tony_bullet.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"bulletSpeed","path":"objects/obj_tony_bullet/obj_tony_bullet.yy",},"objectId":{"name":"obj_tony_bullet","path":"objects/obj_tony_bullet/obj_tony_bullet.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemies",

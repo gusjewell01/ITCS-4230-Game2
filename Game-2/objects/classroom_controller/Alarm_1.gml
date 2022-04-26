@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_create_depth(x, y, -99999, obj_lvl1_bubble2)
+instance_create_depth(0, 0, -9999, obj_fade_out)

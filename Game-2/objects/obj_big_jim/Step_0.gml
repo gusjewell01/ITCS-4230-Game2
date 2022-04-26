@@ -37,7 +37,13 @@ switch (state){
 	case ENEMYSTATE.DEAD:
 	//needed for if we have hp on enemy characters
 	//instance_create_depth(x, y, -9999, obj_fade)
-	room_goto(Fantasy1)
+	sprite_index = spr_big_jim_dying
+	instance_create_depth(0,0,-99999,obj_fade_out)
+	if (alive == true) {
+		alive = false
+	alarm[6] = 1
+	}
+	
 	break;
 }
 cooldown -= 1
