@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_fireball",
-    "path": "sprites/spr_fireball/spr_fireball.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_tony_bullet",
-    "path": "objects/obj_tony_bullet/obj_tony_bullet.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,15 +21,13 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_leo","path":"objects/obj_leo/obj_leo.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
-  "overriddenProperties": [
-    {"propertyId":{"name":"bulletSpeed","path":"objects/obj_tony_bullet/obj_tony_bullet.yy",},"objectId":{"name":"obj_tony_bullet","path":"objects/obj_tony_bullet/obj_tony_bullet.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-  ],
+  "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_fireball",
+  "name": "obj_level2_controller",
   "tags": [],
   "resourceType": "GMObject",
 }

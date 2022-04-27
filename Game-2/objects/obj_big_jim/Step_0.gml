@@ -22,13 +22,16 @@ switch (state){
 	if(distance_to_object(obj_leo) > 200){
 		state = ENEMYSTATE.FREE
 	}
-	
+	 
 	break;
 	case ENEMYSTATE.HIT:
 	//implement if we want to have enemies have hp, will be a bit more work
 	vspeed = 0
 	hspeed = 0
 	sprite_index = spr_big_jim_damaged
+	if (hp == 100) {
+		
+	}
 	if (stateCD = true) {
 		stateCD = false
 	alarm[3] = 20

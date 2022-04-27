@@ -3,3 +3,5 @@
 x = obj_leo.x + 200
 y = obj_leo.y - 100
 alarm[0] = 200
+image_xscale = .1
+image_yscale = .1

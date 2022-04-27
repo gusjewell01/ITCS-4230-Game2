@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_lvl2_bubble2",
-    "path": "sprites/spr_lvl2_bubble2/spr_lvl2_bubble2.yy",
+    "name": "spr_lvl1_bubble7",
+    "path": "sprites/spr_lvl1_bubble7/spr_lvl1_bubble7.yy",
   },
   "solid": false,
   "visible": true,
