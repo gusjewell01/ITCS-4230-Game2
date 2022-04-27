@@ -24,6 +24,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tony","path":"objects/obj_tony/obj_tony.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":160.0,"resourceVersion":"1.0","name":"inst_3BD21C6C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_lvl1_bubble5","path":"objects/obj_lvl1_bubble5/obj_lvl1_bubble5.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":96.0,"resourceVersion":"1.0","name":"inst_2B2D31B9","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_lvl1_bubble7","path":"objects/obj_lvl1_bubble7/obj_lvl1_bubble7.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.1,"scaleY":0.1,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":160.0,"resourceVersion":"1.0","name":"inst_32A06E2E","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_juice","path":"objects/obj_juice/obj_juice.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":192.0,"resourceVersion":"1.0","name":"inst_5F5DD221","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_subway","path":"sprites/spr_subway/spr_subway.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":0.0,"resourceVersion":"1.0","name":"graphic_1BC23666","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -45,6 +46,7 @@
     {"name":"inst_3BD21C6C","path":"rooms/Level2/Level2.yy",},
     {"name":"inst_2B2D31B9","path":"rooms/Level2/Level2.yy",},
     {"name":"inst_32A06E2E","path":"rooms/Level2/Level2.yy",},
+    {"name":"inst_5F5DD221","path":"rooms/Level2/Level2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

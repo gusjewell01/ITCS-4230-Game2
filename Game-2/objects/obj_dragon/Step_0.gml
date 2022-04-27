@@ -43,9 +43,11 @@
 	case ENEMYSTATE.DEAD:
 	//needed for if we have hp on enemy characters
 	sprite_index = spr_dragon_dying
+	
 	if (alive = true) {
 		alive = false
-	alarm[1] = 20
+	alarm[1] = 200
+	instance_create_depth(0,0, -9999, obj_fade_out)
 	}
 	break;
 }

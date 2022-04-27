@@ -7,7 +7,6 @@ enum States {
 	Damaged
 }
 
-
 bat = false
 ready = true
 hp = 100
